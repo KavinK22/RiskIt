@@ -25,4 +25,5 @@ while (True):
 if (usrInput == x):
     print("You chose right!")
 else:
-    print(":3 \n ", socket.getHostName(), socket.gethostbyname(hostname))
+    for i in range(random.randint(100, 100000)):
+        print(":3 \n", socket.gethostname(), socket.gethostbyname(socket.gethostname()))
